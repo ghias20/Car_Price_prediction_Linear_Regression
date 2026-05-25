@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
-import joblib
 import matplotlib.pyplot as plt
+import joblib
 
 # Load saved model and scaler
 model = joblib.load('linear_model.pkl')
